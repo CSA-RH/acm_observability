@@ -18,7 +18,7 @@ The demos use ACM 2.16 with MinIO as the object storage backend. Both the standa
 
 2. **[Grafana Developer Instance](docs/2.grafana-dev-configuration_and_demo.md)** : Deploy the `grafana-dev` auxiliary instance for visual dashboard design, create custom dashboards as ConfigMaps.
 
-3. **[Custom Alerts, Recording Rules, and Metrics](docs/3.metrics_alerts-recordrules.md)** : Two mutually exclusive methods to collect metrics from managed clusters.
+3. **[Spoke clusters Metrics Collection Architectures](docs/3.metrics_alerts-recordrules.md)** : Two mutually exclusive methods to collect metrics from managed clusters.
 
 4. **[Grafana Operator (Community)](docs/4.grafana-operator-configuration.md)** : Integration of the community Grafana Operator with the ACM observability stack (Thanos/Observatorium). Not officially supported by Red Hat.
 
