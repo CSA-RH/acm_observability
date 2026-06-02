@@ -8,7 +8,7 @@ The demos use ACM 2.16 with MinIO as the object storage backend. Both the standa
 
 > **Prerequisites:**
 > - ACM installed on the hub cluster (2.15/2.16 recommended)
-> - At least one managed cluster imported (or `local-cluster` self-managed)
+> - At least one managed cluster imported (`local-cluster` + `additional`)
 
 ---
 
