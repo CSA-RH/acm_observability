@@ -14,14 +14,10 @@ The demos use ACM 2.16 with MinIO as the object storage backend. Both the standa
 
 ## Topics
 
-1. **[MCO Install & Configuration](docs/1.mco-install.md)** : MultiClusterObservability CR setup, MinIO object storage, SNO considerations.
+1. **[MCO Install & Configuration](docs/1.mco-install.md)** : MultiClusterObservability CR setup, MinIO object storage, SNO considerations. Includes both standard and MCOA metrics collection options.
 
-2. **[Grafana Developer Instance](docs/2.grafana-dev-configuration_and_demo.md)** : Deploy the `grafana-dev` auxiliary instance for visual dashboard design, create custom dashboards as ConfigMaps.
+2. **[Metrics UI & Dashboards](docs/2.metrics_ui_dashboard.md)** : Dashboarding and visualization options for ACM observability.
 
-3. **[Spoke clusters Metrics Collection Architectures](docs/3.metrics_alerts-recordrules.md)** : Two mutually exclusive methods to collect metrics from managed clusters.
+3. **[Spoke Clusters Metrics Collection](docs/3.metricscollection.md)** : Two mutually exclusive methods to collect metrics from managed clusters (standard metrics-collector vs MCOA).
 
-4. **[Grafana Operator (Community)](docs/4.grafana-operator-configuration.md)** : Integration of the community Grafana Operator with the ACM observability stack (Thanos/Observatorium). Not officially supported by Red Hat.
-
-5. **[User Workload Monitoring](docs/5.uwm-configuration_and_demo.md)** : Forwarding user workload metrics and alerts from managed clusters to the hub.
-
-6. **[Perses Dashboards](docs/6.perses-configuration_and_demo.md)** : Install the Cluster Observability Operator (COO), enable Perses via UIPlugin, create Perses dashboards with multicluster metrics from ACM's Thanos.
+4. **[User Workload Monitoring](docs/4.user_worload_monitoring.md)** : Forwarding user workload metrics and alerts from managed clusters to the hub, using either the standard or MCOA stack.
