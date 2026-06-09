@@ -7,8 +7,8 @@ This repository contains hands-on demos for ACM multicluster observability. It c
 The demos use ACM 2.16 with MinIO as the object storage backend. Both the standard observability stack and the Multicluster Observability Add-on (MCOA) are covered.
 
 > **Prerequisites:**
-> - ACM installed on the hub cluster (2.15/2.16 recommended)
-> - At least one managed cluster imported (`local-cluster` + `additional`)
+> - ACM installed on the hub cluster (2.15/2.16 recommended).
+> - At least one managed cluster imported.
 
 ---
 
